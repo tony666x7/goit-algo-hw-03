@@ -2,7 +2,7 @@ import random
 
 def get_numbers_ticket(min, max, quantity):
     # Перевірка вхідних параметрів
-    if not (1 <= min <= max <= 1000 and 1 <= quantity <= max - min + 1):
+    if not (1 <= min <= quantity <= max <= 1000):
         return []
     
     # Генерація унікальних випадкових чисел
